@@ -1,8 +1,9 @@
-<?php
-for ($i = 0; $i < count($titles); $i++) {
-?>
-<li class="item <?php print $source[$i]; ?>" data-category="<?php print $source[$i]; ?>" data-postdate="<?php print $published[$i]; ?>">
-	<h3><?php print $titles[$i]; ?></h3>
-	<?php print $content[$i]; ?>
-</li>
+<?php for ($i = 0; $i < count($itemArray); $i++) { ?>
+
+	<li class="item <?php print $itemArray[$i][$classesArray]; ?>" data-category="<?php print $itemArray[$i][$sourceArray]; ?>" data-postdate="<?php print $itemArray[$i][$timevarArray]; ?>">
+		<h3><?php print $itemArray[$i][$titleArray]; ?></h3>
+		<?php print $itemArray[$i][$contentArray]; ?>
+		<p class="datetime"><a href="<?php print $itemArray[$i][$directlinkArray]; ?>"><?php print $itemArray[$i][$displaytimeArray]; ?></a></p>
+	</li>
+
 <?php } ?>

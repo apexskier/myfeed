@@ -20,6 +20,7 @@
 	<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 	
 	<link rel="stylesheet" href="css/style.css?v=2">
+	<link href='http://fonts.googleapis.com/css?family=Lato:100,light,regular' rel='stylesheet'>
 
 	<!-- <script src="js/libs/modernizr-1.6.min.js"></script> -->
 </head>
@@ -30,11 +31,10 @@
 <body>
 <div id="container">
   
-  <h1>Isotope</h1>
+  <h1>Cameron Little</h1>
   
   <section id="options" class="clearfix">
     <div class="option-combo">
-      <h2>Filter:</h2>
       <ul id="filter" class="option-set floated clearfix">
         <li><a href="#show-all" data-filter="*" class="selected">show all</a></li>
         <li><a href="#youtube" data-filter=".youtube">youtube</a></li>
@@ -44,15 +44,7 @@
       </ul>
     </div>
     <div class="option-combo">
-      <h2>Sort:</h2>
-      <ul id="sort" class="option-set floated clearfix">
-        <li><a href="#type" data-sort="original-order" class="selected">original order</a></li>
-        <li><a href="#postdate" data-sort="postdate">post date</a></li>
-        <li><a href="#width" data-sort="width">width</a></li>
-      </ul>
-    </div>
-    <div class="option-combo">
-      <h2>Layout: </h2>
+      <h4>Layout: </h4>
       <ul id="layouts" class="option-set floated clearfix">
         <li><a href="#fitRows" class="selected">fitRows</a></li>
         <li><a href="#masonry">masonry</a></li>
@@ -70,12 +62,12 @@
 	</footer>
 </div> <!-- end of #container -->
 
-  
+
   
   <script src="js/libs/jquery-1.4.4.min.js"></script>
   <script src="js/jquery.isotope.min.js"></script>
   <script src="js/script.js"></script>
-
+	
 
 </body>
 </html>

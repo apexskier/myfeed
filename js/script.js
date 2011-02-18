@@ -12,12 +12,6 @@ $(document).ready(function(){
 	  return false;
 	});
 	
-	$('#sort a').click(function(){
-	  var sortName = $(this).attr('data-sort');
-	  $items.isotope({ sortBy : sortName });
-	  return false;
-	});
-	
 	var currentLayout = layout;
 	
 	$('#layouts a').click(function(){
@@ -28,36 +22,21 @@ $(document).ready(function(){
 	  return false;
 	});
 	
-	
-	  // switches selected class on buttons
-	  $('#options').find('.option-set a').click(function(){
-	    var $this = $(this);
-	
-	    // don't proceed if already selected
-	    if ( !$this.hasClass('selected') ) {
-	      $this.parents('.option-set').find('.selected').removeClass('selected');
-	      $this.addClass('selected');
-	    }
-	
-	  });
-	
-	$(function(){
-	  
-	  $items.isotope({
-	    layoutMode : layout,
-	    masonry : {
-	      columnWidth: 220
-	    },
-	    getSortData : {
-	      related : function( $elem ) {
-	        return $elem.attr('data-related');
-	      },
-	      width : function( $elem ) {
-	        return $elem.width();
-	      }
-	    }
-	  });
-	  
-	});
+  $items.isotope({
+    layoutMode : layout,
+    masonry : {
+      columnWidth: 220
+    }
+  });
+  
+  
+  $('.item').hover(
+		function() {
+			$(this).addClass("hover");
+		},
+		function() {
+			$(this).removeClass("hover");
+  	}
+  );
   
 });
