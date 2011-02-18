@@ -9,6 +9,8 @@ $youtube      = 'camapexskier';
 $twitter      = 'apexskier';
 // github username
 $github       = 'apexskier';
+// google username
+$google       = 'apxskier';
 // date format
 $date_format  = 'g:i A M jS';
 // number of weeks to display
@@ -58,7 +60,7 @@ $itemArray[]  = array (
 		"<a href='https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/RegExp' title='JS RegExp .source'><img src='http://static.jsconf.us/promotejsh.gif' height='150' width='180' alt='JS RegExp .source'/></a>
 ",
 		'promotejs',
-		'',
+		null,
 		'https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/RegExp',
 		'promotejs'
 	);
@@ -116,7 +118,7 @@ foreach ($gh_feed->query->results->entry as $item) {
 	$itemArray[] = array
 		(
 			$unixtime,
-			'',
+			null,
 			$title . $content,
 			'github',
 			date($date_format, $unixtime),
@@ -135,7 +137,7 @@ foreach ($tw_feed->query->results->item as $tweet) {
 	$content = substr($content, strpos($content, ":")+2);
 	$content = htmlspecialchars($content);
 	
-	// Make youtube upload's not show in Twitter
+	// Make youtube uploads not show in Twitter
 	if (!strpos($content, 'uploaded') && !strpos($content, 'YouTube')) {
 		$unixtime = strtotime($tweet->pubDate);
 		// stop if items are older than set timeframe
@@ -168,7 +170,7 @@ foreach ($tw_feed->query->results->item as $tweet) {
 		$itemArray[] = array
 			(
 				$unixtime,
-				'',
+				null,
 				$content,
 				'tweet',
 				date($date_format, $unixtime),
@@ -177,6 +179,78 @@ foreach ($tw_feed->query->results->item as $tweet) {
 			);
 	}
 }
+
+
+$pcsa_path = $start_path . urlencode("SELECT * FROM feed WHERE url='https://picasaweb.google.com/data/feed/base/user/$google?alt=rss&kind=album&hl=en_US'") . $end_path;
+$pcsa_feed = json_decode(file_get_contents($pcsa_path, true));
+
+foreach ($pcsa_feed->query->results->item as $item) {
+	$unixtime = strtotime($item->pubDate);
+	// stop if items are older than set timeframe
+	/* disabled because I don't have anything new.
+	if ( ($current_time - $unixtime) > $timespan) {
+		break;
+	}
+	*/
+
+	$content = $item->description;
+	
+	// remove styles and replace font tags with spans
+	$content = str_replace(' style="padding: 0 5px"', '', $content);
+	$content = str_replace(' style="border:1px solid #5C7FB9"', '', $content);
+	$content = str_replace('font color="#333333"', 'span class=""', $content);
+	$content = str_replace('font color="#6B6B6B"', 'span class="description"', $content);
+	$content = str_replace('font color=\"#3964C2\"', 'span class=""', $content);
+	$content = str_replace('/font', '/span', $content);
+
+	// Add each item to the master array
+	$itemArray[] = array
+		(
+			$unixtime,
+			$item->title,
+			$content,
+			'picasa',
+			date($date_format, $unixtime),
+			$item->link,
+			'picasa'
+		);
+}
+
+
+$gr_path = $start_path . urlencode("SELECT * FROM feed WHERE url='http://www.google.com/reader/public/atom/user%2F00170081306971182888%2Fstate%2Fcom.google%2Fbroadcast'") . $end_path;
+$gr_feed = json_decode(file_get_contents($gr_path, true));
+
+foreach ($gr_feed->query->results->entry as $item) {
+	$unixtime = strtotime($item->published);
+	if ( ($current_time - $unixtime) > $timespan) {
+		break;
+	}
+
+	// don't display youtube activity
+	if ( $item->content->base != "http://www.youtube.com/user/$youtube" ) {
+		if ($item->content->content) {
+			$content = $item->content->content;
+			$content = strip_tags($content);
+			$content = substr($content, 0, 1200);
+			$content .= '...';
+		} elseif ($item->summary->content) {
+			$content = $item->summary->content;
+		}
+				
+		// Add each item to the master array
+		$itemArray[] = array
+			(
+				$unixtime,
+				$item->title->content,
+				$content,
+				'reader',
+				date($date_format, $unixtime),
+				$item->link->href,
+				'reader'
+			);
+	}
+}
+
 
 // sort array by first item in each subarray (unixtime) descending
 array_multisort($itemArray, SORT_DESC);

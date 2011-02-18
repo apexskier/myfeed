@@ -95,6 +95,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Lato';
 	font-weight: 300;
+	margin-bottom: 10px;
 }
 h1 {
 	font-size: 50px;
@@ -145,6 +146,9 @@ strong {
 	font-size: 120%;
 	opacity: 0.9;
 }
+.item img, .item iframe {
+	max-width: 100%;
+}
 .tweet {
 	width: 180px;
 	background: #84d4ff;
@@ -160,11 +164,32 @@ strong {
 	width: 400px;
 	background: #ff4046;
 }
+.picasa {
+	width: 400px;
+	background: #bbb;
+}
+.picasa img {
+	margin: 0 10px 0 0;	
+}
+.picasa span.description {
+	color: #666;
+}
+.reader {
+	background: #bbb;
+	width: 620px;
+}
 .promotejs {
 	opacity: 0.6;
 }
+.datetime {
+	margin-top: 10px;
+}
 .item.hover {
 	opacity: 1;
+}
+
+footer {
+	margin-top: 50px;
 }
 
 

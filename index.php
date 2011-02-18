@@ -40,6 +40,8 @@
         <li><a href="#youtube" data-filter=".youtube">youtube</a></li>
         <li><a href="#tweets" data-filter=".tweet">tweets</a></li>
         <li><a href="#github" data-filter=".github">github</a></li>
+        <li><a href="#picasa" data-filter=".picasa">picasa</a></li>
+        <li><a href="#reader" data-filter=".reader">google reader</a></li>
         <li><a href="#none" data-filter=".none">none</a></li>
       </ul>
     </div>
@@ -59,6 +61,8 @@
 	</div>
 	
 	<footer>
+		<p>Built by <a href="http://twitter.com/apexskier">Cameron Little</a></p>
+		<p>The layout and filtering uses <a href="http://isotope.metafizzy.co/">Isotope</a> by <a href="http://desandro.com">David DeSandro</a> / <a href="http://metafizzy.co">Metafizzy</a> </p>
 	</footer>
 </div> <!-- end of #container -->
 
