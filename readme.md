@@ -1,5 +1,5 @@
 # My Feed
-## build by Cameron Little
+## built by Cameron Little
 
 This is a fun thing I built that uses PHP and YQL to get feed content from a variety of services. It then uses [Isotope](https://github.com/desandro/isotope) to display and filter the items by service.
 
