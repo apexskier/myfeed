@@ -29,7 +29,7 @@ $(document).ready(function(){
     }
   });
   
-  
+    
   $('.item').hover(
 		function() {
 			$(this).addClass("hover");
@@ -39,4 +39,22 @@ $(document).ready(function(){
   	}
   );
   
+  $('#options #filter a').click(function(){
+  	$('#options #filter a').removeClass('selected');
+  	$(this).addClass('selected');
+  });
+  
 });
+
+window.onscroll = function() {
+	if( window.XMLHttpRequest ) {
+		var top = 100;
+		if (document.documentElement.scrollTop > top || self.pageYOffset > top) {
+	    $('#options').addClass('scrolleddown');
+	    $('#items').addClass('scrolleddown');
+		} else if (document.documentElement.scrollTop < top || self.pageYOffset < top) {
+	    $('#options').removeClass('scrolleddown');
+	    $('#items').removeClass('scrolleddown');
+		}
+	}
+}

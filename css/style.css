@@ -119,23 +119,53 @@ strong {
 	font-weight: 500;
 }
 
+
 #container {
 	margin: 50px;
 }
-#main {
-	margin: 0 auto;
-}
 
-#options {
-	
+header {
+	height: 70px;
 }
-#options ul li {
+header h1, header h2 {
 	display: inline;
 }
+#options {
+	float: left;
+	width: 32px;
+	margin-right: 20px;
+}
+#options.scrolleddown {
+	position: fixed;
+	top: 20px;
+}
+#options ul li {
+	list-style: none;
+	margin-bottom: 5px;
+	text-align: center;
+}
+#options #filter {
+	margin: 0;
+	padding: 0;
+	margin-top: 10px;
+}
+#options #filter a {
+	opacity: 0.5;
+	text-decoration: none;
+}
+#options #filter a:hover, #options #filter a:focus {
+	opacity: 0.7;
+}
+#options #filter a.selected {
+	opacity: 1;
+}
 
-.items {
+#items {
 	-webkit-perspective: 800;
 	        perspective: 800;
+}
+#items.scrolleddown {
+	margin-left: 52px;
 }
 .item {
 	margin: 10px;
@@ -149,9 +179,13 @@ strong {
 .item img, .item iframe {
 	max-width: 100%;
 }
+.item img.sourceicon {
+	float: right;
+	margin: 0 0 10px 10px;
+}
 .tweet {
 	width: 180px;
-	background: #84d4ff;
+	background: #93DAFF;
 }
 .tweet.reply, .tweet.retweet {
 	font-size: 90%;
@@ -159,14 +193,15 @@ strong {
 }
 .github {
 	width: 400px;
+	background: #DDD;
 }
 .youtube {
 	width: 400px;
-	background: #ff4046;
+	background: #FF9B9B;
 }
 .picasa {
 	width: 400px;
-	background: #bbb;
+	background: #fff;
 }
 .picasa img {
 	margin: 0 10px 0 0;	
@@ -175,8 +210,15 @@ strong {
 	color: #666;
 }
 .reader {
-	background: #bbb;
+	background: #C2CFF1;
 	width: 620px;
+}
+.flickr {
+	width: 180px;
+	background: #fff;
+}
+.flickr img {
+	margin: 10px 0 0;
 }
 .promotejs {
 	opacity: 0.6;
@@ -189,7 +231,7 @@ strong {
 }
 
 footer {
-	margin-top: 50px;
+	margin: 50px 0 0 60px;
 }
 
 

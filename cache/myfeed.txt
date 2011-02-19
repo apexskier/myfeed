@@ -1,0 +1,338 @@
+
+	<li class="item flickr" data-category="flickr" data-postdate="1298081939">
+					<img src="img/flickr.png" alt="flickr" width="32" height="32" class="sourceicon" />
+							<h3>Washington DC</h3>
+				<p>From my trip to Washington, DC a few weeks ago.</p><img src="http://farm6.static.flickr.com/5213/5457576056_d96fbd2ce7_o.jpg">					<p class="datetime"><a href="http://www.flickr.com/photos/apexskier/5457576056/">6:18 PM Feb 18th</a></p>
+			</li>
+
+
+	<li class="item github" data-category="github" data-postdate="1298015718">
+					<img src="img/github.png" alt="github" width="32" height="32" class="sourceicon" />
+						pushed to master at apexskier/myfeed
+<div class="details">
+  
+
+  <div class="commits">
+    <ul>
+      <li>
+      <a href="https://github.com/apexskier" class="committer">apexskier</a> committed <a href="https://github.com/apexskier/myfeed/commit/99eb7849565834d014923db98b9cadcab76dee10">99eb784</a>
+
+        <div class="message">
+          <blockquote>spelling correction</blockquote>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>					<p class="datetime"><a href="https://github.com/apexskier/myfeed/compare/bbe4fd2137...99eb784956">11:55 PM Feb 17th</a></p>
+			</li>
+
+
+	<li class="item github" data-category="github" data-postdate="1298015600">
+					<img src="img/github.png" alt="github" width="32" height="32" class="sourceicon" />
+						pushed to master at apexskier/myfeed
+<div class="details">
+  
+
+  <div class="commits">
+    <ul>
+      <li>
+      <strong><span class="committer">Cameron Little</span></strong> committed <a href="https://github.com/apexskier/myfeed/commit/bbe4fd21376f648575054a94567121d6df77f57e">bbe4fd2</a>
+
+        <div class="message">
+          <blockquote>Added Google Reader and Picasa feeds. Also added a readme file.</blockquote>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>					<p class="datetime"><a href="https://github.com/apexskier/myfeed/compare/324a2b8a55...bbe4fd2137">11:53 PM Feb 17th</a></p>
+			</li>
+
+
+	<li class="item reader" data-category="reader" data-postdate="1298012422">
+					<img src="img/reader.png" alt="reader" width="32" height="32" class="sourceicon" />
+							<h3>Line25 Sites of the Week for February 18th 2011</h3>
+				Line25 Sites of the Week is a weekly roundup of the most outstanding website designs that I stumble across during my every day browsing. In this week’s collection, we have designs from SublimeVideo, Springpad, Mighty, Think Unstuck and Pat Dryburgh.SublimeVideoView the websiteSpringpadView the websiteMightyView the websiteThink UnstuckView the websitePat DryburghView the website 
+    
+...					<p class="datetime"><a href="http://feedproxy.google.com/~r/Line25/~3/lPeZtZ4dGrM/line25-sites-of-the-week-for-february-18th-2011">11:00 PM Feb 17th</a></p>
+			</li>
+
+
+	<li class="item github" data-category="github" data-postdate="1298009332">
+					<img src="img/github.png" alt="github" width="32" height="32" class="sourceicon" />
+						pushed to master at apexskier/myfeed
+<div class="details">
+  
+
+  <div class="commits">
+    <ul>
+      <li>
+      <strong><span class="committer">Cameron Little</span></strong> committed <a href="https://github.com/apexskier/myfeed/commit/324a2b8a55dc7ff54bd0db54ec50d24f8a5d1fad">324a2b8</a>
+
+        <div class="message">
+          <blockquote>Working and looking great with Twitter, Github, YouTube, and a promote js item. Can filter by source and everything looks good. All items go into a multidimensional array and are sorted by date before being inserted into the page. The Promote JS item is inserted randomly.</blockquote>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>					<p class="datetime"><a href="https://github.com/apexskier/myfeed/compare/61f8525d42...324a2b8a55">10:08 PM Feb 17th</a></p>
+			</li>
+
+
+	<li class="item tweet" data-category="tweet" data-postdate="1297994188">
+					<img src="img/tweet.png" alt="tweet" width="32" height="32" class="sourceicon" />
+						I'm working on a php thingie that pulls posts from some different services and displays them in an awesome way.					<p class="datetime"><a href="http://twitter.com/apexskier/statuses/38416525857800192">5:56 PM Feb 17th</a></p>
+			</li>
+
+
+	<li class="item tweet retweet" data-category="tweet" data-postdate="1297994044">
+					<img src="img/tweet.png" alt="tweet" width="32" height="32" class="sourceicon" />
+						RT <a href="http://twitter.com/paul_irish">@paul_irish</a>: You probably need lasers shooting out of your eyes: <a href="http://laserey.es">http://laserey.es</a>  Uses canvas, FileReader, dragndrop, Modernizr. Pr ...					<p class="datetime"><a href="http://twitter.com/apexskier/statuses/38415922200838144">5:54 PM Feb 17th</a></p>
+			</li>
+
+
+	<li class="item github" data-category="github" data-postdate="1297927468">
+					<img src="img/github.png" alt="github" width="32" height="32" class="sourceicon" />
+						created branch master at apexskier/myfeed
+
+<div class="details">
+  
+  <div class="message">
+      New branch is at <a href="https://github.com/apexskier/myfeed/tree/master">&#47;apexskier&#47;myfeed&#47;tree&#47;master</a>
+      <br />
+      <a href="https://github.com/apexskier/myfeed/compare/master" class="compare-link">Compare master branch with master &raquo;</a>
+
+  </div>
+</div>
+					<p class="datetime"><a href="https://github.com/apexskier/myfeed/compare/master">11:24 PM Feb 16th</a></p>
+			</li>
+
+
+	<li class="item github" data-category="github" data-postdate="1297927351">
+					<img src="img/github.png" alt="github" width="32" height="32" class="sourceicon" />
+						created repository myfeed
+
+<div class="details">
+  
+  <div class="message">
+
+        PHP page that pulls items from a bunch of different services and displays them in a stream using <a href="http://twitter.com/desandro's">@desandro's</a> Isotope jQuery plugin.
+
+  </div>
+</div>
+					<p class="datetime"><a href="https://github.com/apexskier/myfeed">11:22 PM Feb 16th</a></p>
+			</li>
+
+
+	<li class="item tweet retweet" data-category="tweet" data-postdate="1297886494">
+					<img src="img/tweet.png" alt="tweet" width="32" height="32" class="sourceicon" />
+						RT <a href="http://twitter.com/twitter">@twitter</a>: 4 homeless people were given a prepaid cell phone, a month of unlimited text messaging and a Twitter account... <a href="http://t.co">http://t.co</a> ...					<p class="datetime"><a href="http://twitter.com/apexskier/statuses/37964825166483456">12:01 PM Feb 16th</a></p>
+			</li>
+
+
+	<li class="item github" data-category="github" data-postdate="1297843317">
+					<img src="img/github.png" alt="github" width="32" height="32" class="sourceicon" />
+						pushed to master at apexskier/podcastwebapp
+<div class="details">
+  
+
+  <div class="commits">
+    <ul>
+      <li>
+      <strong><span class="committer">Cameron Little</span></strong> committed <a href="https://github.com/apexskier/podcastwebapp/commit/d9d2c3a47d2b1eb7d7cd09f03f23440dfe026a5e">d9d2c3a</a>
+
+        <div class="message">
+          <blockquote>Included html5 boilerplate (from codekickoff). Added a js file that will pull the xml file with the list of podcasts (possibly). Not working though.</blockquote>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>					<p class="datetime"><a href="https://github.com/apexskier/podcastwebapp/compare/d1167e8c8e...d9d2c3a47d">12:01 AM Feb 16th</a></p>
+			</li>
+
+
+	<li class="item tweet" data-category="tweet" data-postdate="1297840622">
+					<img src="img/tweet.png" alt="tweet" width="32" height="32" class="sourceicon" />
+						Just got <a href="http://twitter.com/gittower">@gittower</a> set up and got it working with <a href="http://twitter.com/github.">@github.</a>					<p class="datetime"><a href="http://twitter.com/apexskier/statuses/37772424560914432">11:17 PM Feb 15th</a></p>
+			</li>
+
+
+	<li class="item github" data-category="github" data-postdate="1297840562">
+					<img src="img/github.png" alt="github" width="32" height="32" class="sourceicon" />
+						pushed to master at apexskier/podcastwebapp
+<div class="details">
+  
+
+  <div class="commits">
+    <ul>
+      <li>
+      <strong><span class="committer">Cameron Little</span></strong> committed <a href="https://github.com/apexskier/podcastwebapp/commit/d1167e8c8e177a755496b2ad379da7890ee7a7e8">d1167e8</a>
+
+        <div class="message">
+          <blockquote>Added a ReadMe file.</blockquote>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>					<p class="datetime"><a href="https://github.com/apexskier/podcastwebapp/compare/e22dd30f8d...d1167e8c8e">11:16 PM Feb 15th</a></p>
+			</li>
+
+
+	<li class="item github" data-category="github" data-postdate="1297840349">
+					<img src="img/github.png" alt="github" width="32" height="32" class="sourceicon" />
+						created branch master at apexskier/podcastwebapp
+
+<div class="details">
+  
+  <div class="message">
+      New branch is at <a href="https://github.com/apexskier/podcastwebapp/tree/master">&#47;apexskier&#47;podcastwebapp&#47;tree&#47;master</a>
+      <br />
+      <a href="https://github.com/apexskier/podcastwebapp/compare/master" class="compare-link">Compare master branch with master &raquo;</a>
+
+  </div>
+</div>
+					<p class="datetime"><a href="https://github.com/apexskier/podcastwebapp/compare/master">11:12 PM Feb 15th</a></p>
+			</li>
+
+
+	<li class="item github" data-category="github" data-postdate="1297839972">
+					<img src="img/github.png" alt="github" width="32" height="32" class="sourceicon" />
+						created repository podcastwebapp
+
+<div class="details">
+  
+  <div class="message">
+
+        Let's you listen to podcasts online with HTML5.
+
+  </div>
+</div>
+					<p class="datetime"><a href="https://github.com/apexskier/podcastwebapp">11:06 PM Feb 15th</a></p>
+			</li>
+
+
+	<li class="item github" data-category="github" data-postdate="1297839738">
+					<img src="img/github.png" alt="github" width="32" height="32" class="sourceicon" />
+						created repository PodcastWebApp
+
+<div class="details">
+  
+  <div class="message">
+
+  </div>
+</div>
+					<p class="datetime"><a href="https://github.com/">11:02 PM Feb 15th</a></p>
+			</li>
+
+
+	<li class="item tweet" data-category="tweet" data-postdate="1297818595">
+					<img src="img/tweet.png" alt="tweet" width="32" height="32" class="sourceicon" />
+						Wear flannel. <a href="http://t.co/5ZIEXOL">http://t.co/5ZIEXOL</a> via <a href="http://twitter.com/howtobemanly">@howtobemanly</a>					<p class="datetime"><a href="http://twitter.com/apexskier/statuses/37680038308483072">5:09 PM Feb 15th</a></p>
+			</li>
+
+
+	<li class="item tweet" data-category="tweet" data-postdate="1297722826">
+					<img src="img/tweet.png" alt="tweet" width="32" height="32" class="sourceicon" />
+						Tell Congress: Don't pull the plug on NPR and PBS. Defend public media! <a href="http://bit.ly/gNijdZ">http://bit.ly/gNijdZ</a> via <a href="http://twitter.com/CREDOMobile">@CREDOMobile</a> <a href="http://twitter.com/search?q=%23p2">#p2</a>					<p class="datetime"><a href="http://twitter.com/apexskier/statuses/37278351311765504">2:33 PM Feb 14th</a></p>
+			</li>
+
+
+	<li class="item github" data-category="github" data-postdate="1297705010">
+					<img src="img/github.png" alt="github" width="32" height="32" class="sourceicon" />
+						edited Sites using the boilerplate in the paulirish/html5-boilerplate wiki
+<div class="details">
+  
+  <div class="message">
+      <blockquote>Added another website.</blockquote>
+  </div>
+</div>
+					<p class="datetime"><a href="https://github.com/paulirish/html5-boilerplate/wiki/Sites-using-the-boilerplate">9:36 AM Feb 14th</a></p>
+			</li>
+
+
+	<li class="item tweet reply" data-category="tweet" data-postdate="1297373929">
+					<img src="img/tweet.png" alt="tweet" width="32" height="32" class="sourceicon" />
+						<a href="http://twitter.com/BarefootJake">@BarefootJake</a> I'll send a message about the event to the people in charge.					<p class="datetime"><a href="http://twitter.com/apexskier/statuses/35814971862425600">1:38 PM Feb 10th</a></p>
+			</li>
+
+
+	<li class="item tweet reply" data-category="tweet" data-postdate="1297373506">
+					<img src="img/tweet.png" alt="tweet" width="32" height="32" class="sourceicon" />
+						<a href="http://twitter.com/BarefootJake">@BarefootJake</a> What's your event? My parents organize the NODM. Are you planning on running in it?					<p class="datetime"><a href="http://twitter.com/apexskier/statuses/35813199504883712">1:31 PM Feb 10th</a></p>
+			</li>
+
+
+	<li class="item tweet" data-category="tweet" data-postdate="1297369713">
+					<img src="img/tweet.png" alt="tweet" width="32" height="32" class="sourceicon" />
+						New version of NODM.com! Now using Drupal 7, a revised theme, and the 1140px Grid System. <a href="http://twitter.com/andytir">@andytir</a> <a href="http://twitter.com/drupal">@drupal</a>					<p class="datetime"><a href="http://twitter.com/apexskier/statuses/35797287569465345">12:28 PM Feb 10th</a></p>
+			</li>
+
+
+	<li class="item tweet reply" data-category="tweet" data-postdate="1297309316">
+					<img src="img/tweet.png" alt="tweet" width="32" height="32" class="sourceicon" />
+						<a href="http://twitter.com/andytlr">@andytlr</a> <a href="http://t.co/B9AuMAn">http://t.co/B9AuMAn</a> is also using the 1140px CSS Grid System.					<p class="datetime"><a href="http://twitter.com/apexskier/statuses/35543967445557249">7:41 PM Feb 9th</a></p>
+			</li>
+
+
+	<li class="item tweet reply" data-category="tweet" data-postdate="1297309106">
+					<img src="img/tweet.png" alt="tweet" width="32" height="32" class="sourceicon" />
+						<a href="http://twitter.com/_ds">@_ds</a> Twitter clients need more support for personal url shortening services like yourls or paid shorteners.					<p class="datetime"><a href="http://twitter.com/apexskier/statuses/35543084767002624">7:38 PM Feb 9th</a></p>
+			</li>
+
+
+	<li class="item tweet reply" data-category="tweet" data-postdate="1297297134">
+					<img src="img/tweet.png" alt="tweet" width="32" height="32" class="sourceicon" />
+						<a href="http://twitter.com/andytlr">@andytlr</a> <a href="http://feiromarinelifecenter.org/">http://feiromarinelifecenter.org/</a> is using the 1140px CSS Grid System					<p class="datetime"><a href="http://twitter.com/apexskier/statuses/35492872254013440">4:18 PM Feb 9th</a></p>
+			</li>
+
+
+	<li class="item tweet reply" data-category="tweet" data-postdate="1297297052">
+					<img src="img/tweet.png" alt="tweet" width="32" height="32" class="sourceicon" />
+						<a href="http://twitter.com/andytlr">@andytlr</a> For the 1140px grid system you should add min-height: 1px to .onecol ... .elevencol { } so the columns take space even when empty.					<p class="datetime"><a href="http://twitter.com/apexskier/statuses/35492525389254656">4:17 PM Feb 9th</a></p>
+			</li>
+
+
+	<li class="item tweet retweet" data-category="tweet" data-postdate="1297291684">
+					<img src="img/tweet.png" alt="tweet" width="32" height="32" class="sourceicon" />
+						RT <a href="http://twitter.com/dcurtis">@dcurtis</a>: The first time someone told me about Twitter, I said, &quot;What a stupid idea! I give it six months.&quot; 
+
+I don't call ideas stup ...					<p class="datetime"><a href="http://twitter.com/apexskier/statuses/35470010679824384">2:48 PM Feb 9th</a></p>
+			</li>
+
+
+	<li class="item tweet reply" data-category="tweet" data-postdate="1297275614">
+					<img src="img/tweet.png" alt="tweet" width="32" height="32" class="sourceicon" />
+						<a href="http://twitter.com/rem">@rem</a> Happens a lot to me with my slower internet connection.					<p class="datetime"><a href="http://twitter.com/apexskier/statuses/35402610110496768">10:20 AM Feb 9th</a></p>
+			</li>
+
+
+	<li class="item tweet" data-category="tweet" data-postdate="1297230562">
+					<img src="img/tweet.png" alt="tweet" width="32" height="32" class="sourceicon" />
+						Launched the new version of apexfreestyle.com a couple days ago. Now built on <a href="http://twitter.com/drupal">@drupal</a> 7.					<p class="datetime"><a href="http://twitter.com/apexskier/statuses/35213649236729856">9:49 PM Feb 8th</a></p>
+			</li>
+
+
+	<li class="item youtube" data-category="youtube" data-postdate="1297218534">
+					<img src="img/youtube.png" alt="youtube" width="32" height="32" class="sourceicon" />
+							<h3>Emily and Cameron Little Powder at Apex</h3>
+				<iframe title='YouTube video player' width='400' height='225' src='http://www.youtube.com/embed/WwdpNaPmMIw?hd=1' frameborder='0' allowfullscreen></iframe>					<p class="datetime"><a href="http://www.youtube.com/watch?v=WwdpNaPmMIw&feature=youtube_gdata">6:28 PM Feb 8th</a></p>
+			</li>
+
+
+	<li class="item tweet" data-category="tweet" data-postdate="1297212061">
+					<img src="img/tweet.png" alt="tweet" width="32" height="32" class="sourceicon" />
+						Really cool website - <a href="http://t.co/8FQr6Ii">http://t.co/8FQr6Ii</a> via _dew <a href="http://twitter.com/search?q=%23fb">#fb</a>					<p class="datetime"><a href="http://twitter.com/apexskier/statuses/35136047876800512">4:41 PM Feb 8th</a></p>
+			</li>
+
+
+	<li class="item tweet" data-category="tweet" data-postdate="1297204294">
+					<img src="img/tweet.png" alt="tweet" width="32" height="32" class="sourceicon" />
+						Snow is still excellent <a href="http://twitter.com/apexmountain">@apexmountain</a>					<p class="datetime"><a href="http://twitter.com/apexskier/statuses/35103471388590080">2:31 PM Feb 8th</a></p>
+			</li>
+
+
+	<li class="item promotejs" data-category="promotejs" data-postdate="1297026133">
+							<h3>Promote JS!</h3>
+				<a href='https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/RegExp' title='JS RegExp .source'><img src='http://static.jsconf.us/promotejsh.gif' height='150' width='180' alt='JS RegExp .source'/></a>
+						<p class="datetime"><a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/RegExp"></a></p>
+			</li>
+
